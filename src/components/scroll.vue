@@ -200,7 +200,7 @@ export default {
     },
     pullDownStyle: {
       handler (val) {
-        if (val.top == '-50px') {
+        if (val.top === '-50px') {
           this.beforePullDown = true
         }
       },
